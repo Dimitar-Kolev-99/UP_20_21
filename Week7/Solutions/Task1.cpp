@@ -1,9 +1,7 @@
 #include <iostream>
 
 static int calculator(int firstNumber, int secondNumber, char operation) {
-
 	int answer;
-
 	switch (operation)
 	{
 	case '+':
@@ -24,6 +22,5 @@ static int calculator(int firstNumber, int secondNumber, char operation) {
 	default:
 		return -1;
 	}
-
 	return answer;
 }
